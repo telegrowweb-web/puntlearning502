@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Punt Bull Learning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#0a5cff;--deep:#0047b8;--sky:#2b8cff;--bg:#eef4ff;--text:#0f1b33;--muted:#55657f;--orange:#ff6a00;--gold:#f7c531;--line:#d5e0f5;
+box-sizing:border-box}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:Poppins,"Segoe UI",system-ui,sans-serif;display:flex;flex-direction:column;align-items:center}
+header{width:100%;text-align:center;color:#fff;background:linear-gradient(90deg,var(--deep) 0%,var(--blue) 50%,var(--sky) 100%);padding:calc(18px + env(safe-area-inset-top,0px)) 16px 26px}
+.badge{font-weight:700;letter-spacing:.22em;font-size:clamp(11px,2.6vw,20px);text-transform:uppercase}
+.badge span{color:var(--gold)}
+h1{margin:8px 0 10px;font-weight:800;text-transform:uppercase;white-space:nowrap;line-height:1.05;font-size:clamp(20px,6vw,84px);letter-spacing:.01em}
+.sub{margin:0;font-weight:600;letter-spacing:.2em;text-transform:uppercase;font-size:clamp(10px,1.9vw,17px);opacity:.95}
+main{width:100%;max-width:480px;padding:24px 20px 32px;text-align:center;flex:1}
+.redirect{color:var(--orange);font-weight:700;font-size:clamp(16px,4vw,22px);margin:0 0 20px}
+.logo{width:150px;height:150px;border-radius:50%;object-fit:cover;border:5px solid var(--blue);box-shadow:0 0 28px rgba(10,92,255,.35);display:block;margin:0 auto;background:#fff}
+.name{font-weight:700;font-size:18px;margin:12px 0 0}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 16px;margin:22px 0}
+.card h2{margin:0 0 6px;font-size:20px;font-weight:700}
+.card p{margin:0;color:var(--muted)}
+.cta{display:inline-block;background:linear-gradient(90deg,var(--blue),var(--sky));color:#fff;font-weight:700;text-decoration:none;padding:15px 40px;border-radius:999px;font-size:17px;margin:0 0 20px;box-shadow:0 6px 18px rgba(10,92,255,.3);transition:transform .15s}
+.cta:hover{transform:scale(1.05)}
+.cta:focus-visible,a:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.tag{margin:0 0 6px;font-weight:600}
+.ads{color:var(--muted);font-size:13px;margin:0}
+a{color:var(--blue)}
+footer{width:100%;background:linear-gradient(90deg,var(--deep) 0%,var(--blue) 50%,var(--sky) 100%);color:#fff;padding:26px 20px calc(26px + env(safe-area-inset-bottom,0px));text-align:center;font-size:13px}
+footer .inner{max-width:900px;margin:0 auto}
+footer p{margin:0 0 14px;line-height:1.6;opacity:.95}
+footer a{color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+footer nav a{margin:0 10px}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes glow{0%,100%{box-shadow:0 0 18px rgba(10,92,255,.3)}50%{box-shadow:0 0 36px rgba(10,92,255,.6)}}
+header>*{animation:rise .6s both}
+header>*:nth-child(2){animation-delay:.1s}header>*:nth-child(3){animation-delay:.2s}
+main>*{animation:rise .6s both}
+main>*:nth-child(2){animation-delay:.3s}main>*:nth-child(3){animation-delay:.4s}main>*:nth-child(4){animation-delay:.5s}
+main>*:nth-child(5){animation-delay:.6s}main>*:nth-child(6){animation-delay:.7s}main>*:nth-child(7){animation-delay:.8s}
+.logo{animation:rise .6s .3s both,glow 3s ease-in-out 1s infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="badge"><span>★</span> Official Platform <span>★</span></div>
+  <h1>Punt Bull Learning</h1>
+  <p class="sub">📈 Learn Strategies · Trade Smart 💡</p>
+</header>
+
+<main>
+  <p class="redirect" id="redirect" hidden>Redirecting in <span id="count">5</span> seconds...</p>
+
+  <img class="logo" src="https://i.ibb.co/hF5R30Z7/Chat-GPT-Image-Aug-12-2026-04-18-56-PM.png" alt="Punt Bull Learning Logo">
+  <p class="name">Punt Bull Learning</p>
+
+  <section class="card">
+    <h2>Thousands of Subscribers Joined</h2>
+    <p>✅ Learning live opportunities every day</p>
+  </section>
+
+  <a class="cta" href="https://bit.ly/puntbull_signup">REGISTER NOW</a>
+
+  <p class="tag">💎 Precision. Power. Passion 🌍 — Join Now</p>
+  <p class="ads">Ads managed by <a href="https://telegram.me/+TRlJl628l-FkMWE9">@nexgroww</a></p>
+</main>
+
+<footer>
+  <div class="inner">
+  <p><strong>Disclaimer:</strong> For educational purposes only. Trading and investing in financial markets involves risk, including possible loss of capital. Past performance is not indicative of future results. This is not financial advice.</p>
+  <nav><a href="https://bit.ly/puntbull_signup">Privacy Policy</a> | <a href="https://bit.ly/puntbull_signup">Contact Us</a></nav>
+  </div>
+</footer>
+
+<script>
+// Set your real signup link here. The countdown only shows once it is set.
+var REDIRECT_URL = "https://YOUR-SIGNUP-LINK";
+if (REDIRECT_URL.indexOf("YOUR-SIGNUP-LINK") === -1) {
+  var left = 5, box = document.getElementById("redirect"), num = document.getElementById("count");
+  box.hidden = false;
+  var t = setInterval(function () {
+    left--; num.textContent = left;
+    if (left <= 0) { clearInterval(t); window.location.href = REDIRECT_URL; }
+  }, 1000);
+}
+</script>
+</body>
+</html>
